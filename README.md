@@ -14,3 +14,5 @@ Technologies Used
     JavaScript: For adding interactivity, such as animations and dynamic content.
     Git: Version control for tracking changes and collaboration.
     GitHub Pages: For hosting the portfolio.
+
+-- AI Used - Copilot to get the theme swtich working, also the icons are AI generated!
