@@ -36,6 +36,11 @@ body{
     margin-bottom: 4rem;
 }
 
+.hero-hidden h3 {
+    margin-top: 2rem;
+    color: #ccc;
+}
+
 .hero-hidden h2 {
     font-size: 2.5rem;
 }
@@ -141,31 +146,6 @@ section h2 {
 .project-card a:hover {
     background: #fff;
     color: #2b2b2b;
-}
-
-.experience-item {
-    background: #363636;
-    border-radius: 12px;
-    padding: 2.5rem;
-    margin: 1rem 0;
-    border: 1px solid #4a4a4a;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.experience-item:hover {
-    border-color: #666;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-.experience-item h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.experience-item p {
-    color: #ccc;
-    line-height: 1.6;
 }
 
 a {

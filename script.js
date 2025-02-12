@@ -13,7 +13,7 @@ const hiddenElements = document.querySelectorAll('.hero-hidden, .section-hidden'
 hiddenElements.forEach((el) => observer.observe(el));
 
 async function fetchGitHubProjects() {
-    try {
+        try {
         const response = await fetch('https://api.github.com/users/divpreeet/repos?sort=updated&per_page=6');
         if (!response.ok) {
             throw new Error('Failed to fetch repositories');
